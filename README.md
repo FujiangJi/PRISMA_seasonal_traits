@@ -111,11 +111,11 @@
   * **_Coefficients:_** The PLSR coefficients, VIP metrics and PRESS scores can be found in directory **`coefficients`**
 
 
-* <span style="font-size:20px; color:blue;">**Step 4: Statistical analysis of seasonal variability in plant traits and its drivers**</span>  
+* <span style="font-size:20px; color:blue;">**Step 4: Statistical analysis of seasonal variability in plant traits and its drivers**</span>
 
-_Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
-* **_Seasonal variability in plant traits across forest types and NEON sites:_** execute the code `1_seasonal_variability_statistical.ipynb`
-* **_Drivers for seasonal and spatial variation of plant traits:_** execute the code `2_seasonal_spatial_variability_drivers.ipynb`
+  _Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
+  * **_Seasonal variability in plant traits across forest types and NEON sites:_** execute the code `1_seasonal_variability_statistical.ipynb`
+  * **_Drivers for seasonal and spatial variation of plant traits:_** execute the code `2_seasonal_spatial_variability_drivers.ipynb`
 
 ## Reference
 In case you use our framework and code in your research, Please cite our paper:
