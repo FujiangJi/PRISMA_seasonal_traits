@@ -56,7 +56,6 @@
     * Process the environmental data, run code `2_forcing_data_processing.ipynb`, `3_soil_data_processing.ipynb`, `4_topographic_data_processing.ipynb` in the directory `0_data_preparation`, respectively.
 
 * <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>  
-
   _Navigate to the directory **`1_Step1_PRISMA_preprocessing`** and execute the code in the following steps after updating the input/output paths:_
   * **_Convert original PRISMA data to GeoTIFF:_** employed the [prismaread](https://github.com/irea-cnr-mi/prismaread/) package.
     ```
