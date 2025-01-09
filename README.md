@@ -121,10 +121,9 @@
 In case you use our framework and code in your research, Please cite our paper:
 * If you have any questions, please feel free to reach me at fujiang.ji@wisc.edu.
   ```
-  Ji,F.; Zheng, T.; Yang, R.; Kovach, K. R.; Townsend, P. A.; Shiklomanov, A. N.; Li, F.; 
-  Hao, D.; Dashti, H.; You, H.; Zhou, J.; Chen, M. Tracking seasonal variability in plant 
-  traits from PRISMA spaceborne hyperspectral imaging spectroscopy over diverse forest types 
-  and ecological functional regions. 2025. (Manuscript submitted, DOI forthcoming).
+  Ji,F.; Zheng, T.; Yang, R.; Kovach, K. R.; Townsend, P. A.; Shiklomanov, A. N.; Li, F.; Hao, D.; Dashti, H.; You, H.; Zhou, J.;
+  Chen, M. Tracking seasonal variability in plant traits from PRISMA spaceborne hyperspectral imaging spectroscopy over diverse
+  forest types and ecological functional regions. 2025. (Manuscript submitted, DOI forthcoming).
   ```
 
 ## Contact
