@@ -55,7 +55,8 @@
     * **Topographic data:** <u>elevation</u>, <u>slope</u>, and <u>aspect</u>, were extracted from the Shuttle Radar Topography Mission ([SRTM](https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4)) digital elevation dataset at a spatial resolution of 90 m ([GEE code](https://code.earthengine.google.com/b898b85c6133e1177908c227de211db9)). 
     * Process the environmental data, run code `2_forcing_data_processing.ipynb`, `3_soil_data_processing.ipynb`, `4_topographic_data_processing.ipynb` in the directory `0_data_preparation`, respectively.
 
-* <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>
+* <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>  
+
   _Navigate to the directory **`1_Step1_PRISMA_preprocessing`** and execute the code in the following steps after updating the input/output paths:_
   * **_Convert original PRISMA data to GeoTIFF:_** employed the [prismaread](https://github.com/irea-cnr-mi/prismaread/) package.
     ```
