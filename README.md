@@ -55,7 +55,8 @@
     * **Topographic data:** <u>elevation</u>, <u>slope</u>, and <u>aspect</u>, were extracted from the Shuttle Radar Topography Mission ([SRTM](https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4)) digital elevation dataset at a spatial resolution of 90 m ([GEE code](https://code.earthengine.google.com/b898b85c6133e1177908c227de211db9)). 
     * Process the environmental data, run code `2_forcing_data_processing.ipynb`, `3_soil_data_processing.ipynb`, `4_topographic_data_processing.ipynb` in the directory `0_data_preparation`, respectively.
 
-* <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>  
+* <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>
+  
       _Navigate to the directory **`1_Step1_PRISMA_preprocessing`** and execute the code in the following steps after updating the input/output paths:_
   * **_Convert original PRISMA data to GeoTIFF:_** employed the [prismaread](https://github.com/irea-cnr-mi/prismaread/) package.
     ```
@@ -71,8 +72,9 @@
   * **_BRDF correction:_** Substantial changes in geometry occur throughout the growing season in PRISMA data, followed the Ross-Li kernel functions and c-factors method. Run the code `4_BRDF_correction.ipynb`
   * **_PRISMA LAI estimation:_** run the code `5_MODIS_LAI_VI_models.ipynb` for building the LAI ~ VI relationshpis, run `6_Calculate_PRISMA_VI_LAI.ipynb` for getting the PRISMA-derived LAI, and run code `7_cloud_mask.ipynb` to obtain the cloud mask data.
 
-* <span style="font-size:20px; color:blue;">**Step 2: NEON AOP trait maps generating.**</span>
-_Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the code in the following steps after updating the input/output paths. **Note:** This step must be performed on a Linux OS, preferably in a high-performance computing (HPC) cluster._
+* <span style="font-size:20px; color:blue;">**Step 2: NEON AOP trait maps generating.**</span>  
+
+      _Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the code in the following steps after updating the input/output paths. **Note:** This step must be performed on a Linux OS, preferably in a high-performance computing (HPC) cluster._
 
   * **_Set the environment and get the plot-level trait models:_**: get the running [environment](https://drive.google.com/file/d/1OuE3DSlr0neIPr98qYOxjYMrZN-8-pTw/view?usp=sharing) and [trait models](https://drive.google.com/file/d/1KZ40zccJDsJIc69kqQRGpLzXNJuZ-6kE/view?usp=sharing), the unzipped environment put in directory `pyenvs` and the zipped trait models put in folder `trait_models`
   * **_High resolution NEON AOP trait maps (1m):_** this step include: (1) data pull from [NEON]((https://data.neonscience.org/data-products/DP1.30006.001)); (2) Topographic and BRDF correction based on [HyTools](https://github.com/EnSpec/hytools) package; (3) High-resolution trait prediction.
@@ -93,8 +95,9 @@ _Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the 
     python 4_upscaling.py
     ```
 
-* <span style="font-size:20px; color:blue;">**Step 3: Site-level PLSR modeling.**</span>
-_Navigate to the directory **`3_Step3_Site_level_PLSR_modeling`** and execute the code in the following steps after updating the input/output paths:_
+* <span style="font-size:20px; color:blue;">**Step 3: Site-level PLSR modeling.**</span>  
+
+      _Navigate to the directory **`3_Step3_Site_level_PLSR_modeling`** and execute the code in the following steps after updating the input/output paths:_
   * **_Extract training data:_** extract the calibration and validation datasets from PRISMA reflectance, LAI and upscaled 30 m NEON AOP trait maps by running code `1_extract_training_data.ipynb. **_Note:_** a minimum distance of 100m was maintained between the randomly selected points to minimize spatial autocorrelation.
   * **_Site-level PLSR modeling:_**
     ```
@@ -108,8 +111,9 @@ _Navigate to the directory **`3_Step3_Site_level_PLSR_modeling`** and execute th
   * **_Coefficients:_** The PLSR coefficients, VIP metrics and PRESS scores can be found in directory **`coefficients`**
 
 
-* <span style="font-size:20px; color:blue;">**Step 4: Statistical analysis of seasonal variability in plant traits and its drivers**</span>
-_Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
+* <span style="font-size:20px; color:blue;">**Step 4: Statistical analysis of seasonal variability in plant traits and its drivers**</span>  
+
+    _Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
 * **_Seasonal variability in plant traits across forest types and NEON sites:_** execute the code `1_seasonal_variability_statistical.ipynb`
 * **_Drivers for seasonal and spatial variation of plant traits:_** execute the code `2_seasonal_spatial_variability_drivers.ipynb`
 
