@@ -131,7 +131,7 @@ In case you use our framework and code in your research, Please cite our paper:
 fujiang.ji@wisc.edu
 min.chen@wisc.edu
 ```
-## credits
+## Credits
 * This study is supported by the National Aeronautics and Space Administration (NASA) through Remote Sensing Theory, Commercial SmallSat Data Scientific Analysis (CSDSA) and Terrestrial Ecology programs.
 * We acknowledge the NEON team for providing the airborne hyperspectral data and the Townsend lab for providing the workflow in processing the airborne data.
 * We acknowledge high-performance computing support from the UW-Madison Center for High Throughput Computing (CHTC) in the Department of Computer Sciences. 
