@@ -76,7 +76,7 @@
 
   _Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the code in the following steps after updating the input/output paths. **Note:** This step must be performed on a Linux OS, preferably in a high-performance computing (HPC) cluster._
 
-  * **_Set the environment and get the plot-level trait models:_**: get the running [environment](https://drive.google.com/file/d/1OuE3DSlr0neIPr98qYOxjYMrZN-8-pTw/view?usp=sharing) and [trait models](https://drive.google.com/file/d/1KZ40zccJDsJIc69kqQRGpLzXNJuZ-6kE/view?usp=sharing), the unzipped environment put in directory `pyenvs` and the zipped trait models put in folder `trait_models`
+  * **_Set the environment and get the plot-level trait models:_** get the running [environment](https://drive.google.com/file/d/1OuE3DSlr0neIPr98qYOxjYMrZN-8-pTw/view?usp=sharing) and [trait models](https://drive.google.com/file/d/1KZ40zccJDsJIc69kqQRGpLzXNJuZ-6kE/view?usp=sharing), the unzipped environment put in directory `pyenvs` and the zipped trait models put in folder `trait_models`
   * **_High resolution NEON AOP trait maps (1m):_** this step include: (1) data pull from [NEON]((https://data.neonscience.org/data-products/DP1.30006.001)); (2) Topographic and BRDF correction based on [HyTools](https://github.com/EnSpec/hytools) package; (3) High-resolution trait prediction.
     ```
     sbatch 1_NEON_AOP_scripts.sh Flightline
