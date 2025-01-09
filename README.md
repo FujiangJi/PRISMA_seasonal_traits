@@ -57,7 +57,7 @@
 
 * <span style="font-size:20px; color:blue;">**Step 1: PRISMA data preprocessing.**</span>
   
-      _Navigate to the directory **`1_Step1_PRISMA_preprocessing`** and execute the code in the following steps after updating the input/output paths:_
+  _Navigate to the directory **`1_Step1_PRISMA_preprocessing`** and execute the code in the following steps after updating the input/output paths:_
   * **_Convert original PRISMA data to GeoTIFF:_** employed the [prismaread](https://github.com/irea-cnr-mi/prismaread/) package.
     ```
     Rscript 1_convert_PRISMA_to_geotiff.R
@@ -74,7 +74,7 @@
 
 * <span style="font-size:20px; color:blue;">**Step 2: NEON AOP trait maps generating.**</span>  
 
-      _Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the code in the following steps after updating the input/output paths. **Note:** This step must be performed on a Linux OS, preferably in a high-performance computing (HPC) cluster._
+  _Navigate to the directory **`2_Step2_NEON_AOP_trait_mapping`** and execute the code in the following steps after updating the input/output paths. **Note:** This step must be performed on a Linux OS, preferably in a high-performance computing (HPC) cluster._
 
   * **_Set the environment and get the plot-level trait models:_**: get the running [environment](https://drive.google.com/file/d/1OuE3DSlr0neIPr98qYOxjYMrZN-8-pTw/view?usp=sharing) and [trait models](https://drive.google.com/file/d/1KZ40zccJDsJIc69kqQRGpLzXNJuZ-6kE/view?usp=sharing), the unzipped environment put in directory `pyenvs` and the zipped trait models put in folder `trait_models`
   * **_High resolution NEON AOP trait maps (1m):_** this step include: (1) data pull from [NEON]((https://data.neonscience.org/data-products/DP1.30006.001)); (2) Topographic and BRDF correction based on [HyTools](https://github.com/EnSpec/hytools) package; (3) High-resolution trait prediction.
@@ -97,7 +97,7 @@
 
 * <span style="font-size:20px; color:blue;">**Step 3: Site-level PLSR modeling.**</span>  
 
-      _Navigate to the directory **`3_Step3_Site_level_PLSR_modeling`** and execute the code in the following steps after updating the input/output paths:_
+  _Navigate to the directory **`3_Step3_Site_level_PLSR_modeling`** and execute the code in the following steps after updating the input/output paths:_
   * **_Extract training data:_** extract the calibration and validation datasets from PRISMA reflectance, LAI and upscaled 30 m NEON AOP trait maps by running code `1_extract_training_data.ipynb. **_Note:_** a minimum distance of 100m was maintained between the randomly selected points to minimize spatial autocorrelation.
   * **_Site-level PLSR modeling:_**
     ```
@@ -113,7 +113,7 @@
 
 * <span style="font-size:20px; color:blue;">**Step 4: Statistical analysis of seasonal variability in plant traits and its drivers**</span>  
 
-    _Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
+_Navigate to the directory **`4_Step4_statistical_analysis`** and execute the code in the following steps after updating the input/output paths:_
 * **_Seasonal variability in plant traits across forest types and NEON sites:_** execute the code `1_seasonal_variability_statistical.ipynb`
 * **_Drivers for seasonal and spatial variation of plant traits:_** execute the code `2_seasonal_spatial_variability_drivers.ipynb`
 
