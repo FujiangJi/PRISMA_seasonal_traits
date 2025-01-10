@@ -1,14 +1,14 @@
-# Tracking seasonal variability in plant traits from PRISMA spaceborne hyperspectral imaging spectroscopy over diverse forest types and ecological functional regions
+# Tracking seasonal variability in plant traits from PRISMA spaceborne hyperspectral imaging spectroscopy across forest types and ecoregions
 
 ## Summary
-* Plant traits serve as critical indicators of how plants adapt to environmental changes and influence ecosystem functions. While airborne hyperspectral remote sensing effectively maps plant traits through detailed reflectance properties, it is limited by cost and scale, making large-scale and temporal studies challenging. The recently launched spaceborne hyperspectral imagers, such as PRISMA, offer frequent and high-quality measurements, making them ideal for large-scale trait mapping. However, their potential remains largely unexplored. 
+* Plant traits serve as critical indicators of how plants adapt to environmental changes and influence ecosystem functions. While airborne hyperspectral remote sensing effectively maps plant traits through detailed reflectance properties, it is limited by cost and scale, making large-scale and temporal studies challenging. The recently launched spaceborne hyperspectral imagers, such as PRISMA, offer frequent and high-quality measurements, making them suitable for large-scale trait mapping. However, their potential remains largely unexplored. 
 * This study developed a multi-stage framework by leveraging the PRISMA data and NEON AOP hyperspectral data to investigate the seasonal dynamics of four key plant traits — chlorophyll (Chla+b, µg/cm<sup>2</sup>), carotenoids (µg/cm<sup>2</sup>)), leaf water (g/m<sup>2</sup>), and nitrogen content (µg/cm<sup>2</sup>) — across eleven NEON sites representing diverse forest types in the contiguous U.S.
 * **Research Questions:**
   * **_(1) What are the capabilities of the PRISMA data in quantifying seasonal variations of plant traits at large scales?_**
-  * **_(2) How do plant traits vary within the growing season for different forest types and National Ecological Observatory Network (NEON) sites?_** 
+  * **_(2) How do plant traits vary within the growing season for different forest types and ecoregions, using NEON sites as a representative example?_** 
   * **_(3) What factors control the spatial and seasonal variability of plant traits?_**
 * **Conclusions:**
-  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall R2 values ranging from 0.78 to 0.88 and NRMSE values ranging from 5.4% to 8.4% for the four traits. 
+  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall R<sup>2</sup> values ranging from 0.78 to 0.88 and _NRMSE_ values ranging from 5.4% to 8.4% for the four traits. 
   * Seasonal patterns revealed bell-shaped trajectories for chlorophyll and carotenoids, while leaf water content decreased steadily across most sites. Nitrogen content exhibited less pronounced seasonal variation. 
   * Analysis of environmental drivers showed that seasonal variability is primarily controlled by solar radiation and day length in northern sites, vapor pressure in semi-arid regions, and temperature in mid-southeastern sites. 
   * Spatial variability was primarily driven by soil properties, particularly during the peak growing season. However, the influence of soil variables slightly declines toward the end of the season at several sites, as climatic factors become more prominent. 
@@ -132,6 +132,6 @@ fujiang.ji@wisc.edu
 min.chen@wisc.edu
 ```
 ## Credits
-* This study is supported by the National Aeronautics and Space Administration (NASA) through Remote Sensing Theory, Commercial SmallSat Data Scientific Analysis (CSDSA) and Terrestrial Ecology programs.
+* This study is supported by the National Aeronautics and Space Administration (NASA) through Remote Sensing Theory, Commercial SmallSat Data Scientific Analysis (CSDSA).
 * We acknowledge the NEON team for providing the airborne hyperspectral data and the Townsend lab for providing the workflow in processing the airborne data.
 * We acknowledge high-performance computing support from the UW-Madison Center for High Throughput Computing (CHTC) in the Department of Computer Sciences. 
