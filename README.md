@@ -8,7 +8,7 @@
   * **_(2) How do plant traits vary within the growing season for different forest types and ecoregions, using NEON sites as a representative example?_** 
   * **_(3) What factors control the spatial and seasonal variability of plant traits?_**
 * **Conclusions:**
-  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall R<sup>2</sup> values ranging from 0.78 to 0.88 and _NRMSE_ values ranging from 5.4% to 8.4% for the four traits. 
+  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall _R<sup>2</sup>_ values ranging from 0.78 to 0.88 and _NRMSE_ values ranging from 5.4% to 8.4% for the four traits. 
   * Seasonal patterns revealed bell-shaped trajectories for chlorophyll and carotenoids, while leaf water content decreased steadily across most sites. Nitrogen content exhibited less pronounced seasonal variation. 
   * Analysis of environmental drivers showed that seasonal variability is primarily controlled by solar radiation and day length in northern sites, vapor pressure in semi-arid regions, and temperature in mid-southeastern sites. 
   * Spatial variability was primarily driven by soil properties, particularly during the peak growing season. However, the influence of soil variables slightly declines toward the end of the season at several sites, as climatic factors become more prominent. 
