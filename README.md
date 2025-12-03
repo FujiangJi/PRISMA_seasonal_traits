@@ -3,11 +3,11 @@
 
 [Fujiang Ji](https://fujiangji.github.io/) <sup>a</sup>, [Ting Zheng](https://www.researchgate.net/profile/Ting-Zheng-12) <sup>a</sup>, [Alexey N. Shiklomanov](https://science.gsfc.nasa.gov/sci/bio/alexey.shiklomanov) <sup>b</sup>, [Ruqi Yang](https://scholar.google.com/citations?user=1AYC2VwAAAAJ&hl=en/) <sup>a</sup>, [Philip A. Townsend](https://forestandwildlifeecology.wisc.edu/people/faculty-and-staff/philip-townsend/) <sup>a</sup>, [Fa Li](https://scholar.google.com/citations?user=lOAXHLwAAAAJ&hl=en) <sup>a, c</sup>, [Dalei Hao](https://scholar.google.com/citations?user=LapapmUAAAAJ&hl=en) <sup>d</sup>, [Hamid Dashti](https://hamiddashti.github.io) <sup>a</sup>, [Kyle R. Kovach](https://scholar.google.com/citations?user=P_CRYLQAAAAJ&hl=en) <sup>a</sup>, [Hangkai You](https://scholar.google.com/citations?hl=en&user=zOLpygsAAAAJ) <sup>a</sup>, [Junxiong Zhou](https://link-dev.github.io/) <sup>e</sup>, [Min Chen](https://globalchange.cals.wisc.edu/staff/chen-min/) <sup>a</sup>
 
-<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, 1630 Linden Drive, Madison, WI 53706, USA  
-<sup>b</sup> NASA Goddard Space Flight Center, 8800 Greenbelt Rd., Mail code: 610.1, Greenbelt, MD 20771, USA  
-<sup>c</sup> Department of Earth System Science, Stanford University, 473 Via Ortega, Stanford, CA 94305, USA  
-<sup>d</sup> Atmospheric, Climate, & Earth Sciences Division, Pacific Northwest National Laboratory, 902 Battelle Blvd, Richland, WA 99354, USA  
-<sup>e</sup> Department of Bioproducts & Biosystems Engineering, University of Minnesota Twin Cities, St Paul, MN 55108, USA 
+<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, USA  
+<sup>b</sup> NASA Goddard Space Flight Center, Greenbelt, MD, USA  
+<sup>c</sup> Department of Earth System Science, Stanford University, Stanford, CA, USA  
+<sup>d</sup> Atmospheric, Climate, & Earth Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA  
+<sup>e</sup> Department of Bioproducts & Biosystems Engineering, University of Minnesota Twin Cities, St Paul, MN, USA 
 
 </div>
 
