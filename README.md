@@ -1,4 +1,20 @@
-# Tracking seasonal variability in plant traits from PRISMA spaceborne hyperspectral imaging spectroscopy over diverse forest types and ecological functional regions
+<div align="center">
+<h1>Tracking seasonal variability in plant traits from spaceborne PRISMA and NEON AOP across forest types and ecoregions</h1>
+
+[Fujiang Ji](https://fujiangji.github.io/) <sup>a</sup>, [Ting Zheng](https://www.researchgate.net/profile/Ting-Zheng-12) <sup>a</sup>, [Alexey N. Shiklomanov](https://science.gsfc.nasa.gov/sci/bio/alexey.shiklomanov) <sup>b</sup>, [Ruqi Yang](https://scholar.google.com/citations?user=1AYC2VwAAAAJ&hl=en/) <sup>a</sup>, [Philip A. Townsend](https://forestandwildlifeecology.wisc.edu/people/faculty-and-staff/philip-townsend/) <sup>a</sup>, [Fa Li](https://scholar.google.com/citations?user=lOAXHLwAAAAJ&hl=en) <sup>a, c</sup>, [Dalei Hao](https://scholar.google.com/citations?user=LapapmUAAAAJ&hl=en) <sup>d</sup>, [Hamid Dashti](https://hamiddashti.github.io) <sup>a</sup>, [Kyle R. Kovach](https://scholar.google.com/citations?user=P_CRYLQAAAAJ&hl=en) <sup>a</sup>, [Hangkai You](https://scholar.google.com/citations?hl=en&user=zOLpygsAAAAJ) <sup>a</sup>, [Junxiong Zhou](https://link-dev.github.io/) <sup>e</sup>, [Min Chen](https://globalchange.cals.wisc.edu/staff/chen-min/) <sup>a</sup>
+
+<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, 1630 Linden Drive, Madison, WI 53706, USA  
+<sup>b</sup> NASA Goddard Space Flight Center, 8800 Greenbelt Rd., Mail code: 610.1, Greenbelt, MD 20771, USA  
+<sup>c</sup> Department of Earth System Science, Stanford University, 473 Via Ortega, Stanford, CA 94305, USA  
+<sup>d</sup> Atmospheric, Climate, & Earth Sciences Division, Pacific Northwest National Laboratory, 902 Battelle Blvd, Richland, WA 99354, USA  
+<sup>e</sup> Department of Bioproducts & Biosystems Engineering, University of Minnesota Twin Cities, St Paul, MN 55108, USA 
+
+</div>
+
+<p align='center'>
+  <a href="https://doi.org/10.1016/j.rse.2025.115149"><img alt="Pape" src="https://img.shields.io/badge/TPAMI-Paper-6D4AFF?style=for-the-badge" /></a>
+</p>
+
 
 ## Summary
 * Plant traits serve as critical indicators of how plants adapt to environmental changes and influence ecosystem functions. While airborne hyperspectral remote sensing effectively maps plant traits through detailed reflectance properties, it is limited by cost and scale, making large-scale and temporal studies challenging. The recently launched spaceborne hyperspectral imagers, such as PRISMA, offer frequent and high-quality measurements, making them ideal for large-scale trait mapping. However, their potential remains largely unexplored. 
@@ -8,15 +24,18 @@
   * **_(2) How do plant traits vary within the growing season for different forest types and National Ecological Observatory Network (NEON) sites?_** 
   * **_(3) What factors control the spatial and seasonal variability of plant traits?_**
 * **Conclusions:**
-  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall R2 values ranging from 0.78 to 0.88 and NRMSE values ranging from 5.4% to 8.4% for the four traits. 
+  * Our results demonstrated that PRISMA hyperspectral data can reliably track seasonal variability in plant traits, achieving overall _R<sup>2</sup>_ values ranging from 0.78 to 0.88 and NRMSE values ranging from 5.4% to 8.4% for the four traits. 
   * Seasonal patterns revealed bell-shaped trajectories for chlorophyll and carotenoids, while leaf water content decreased steadily across most sites. Nitrogen content exhibited less pronounced seasonal variation. 
   * Analysis of environmental drivers showed that seasonal variability is primarily controlled by solar radiation and day length in northern sites, vapor pressure in semi-arid regions, and temperature in mid-southeastern sites. 
   * Spatial variability was primarily driven by soil properties, particularly during the peak growing season. However, the influence of soil variables slightly declines toward the end of the season at several sites, as climatic factors become more prominent. 
 * This study highlights the capability of PRISMA spaceborne hyperspectral data for large-scale, time-series plant trait mapping and provides valuable insights into the interactions between plant traits and environmental factors.
 
 ## Seasonal plant traits modeling across diverse forest types and NEON sites
-<img src="figs/workflows.png" title="" alt="" data-align="center">
-<p align="center"><b>Fig.1.</b> Summarized workflow for tracking seasonal variability of plant traits.</p>
+<img src="figs/Fig1.jpg" title="" alt="" data-align="center">
+<p align="center"><b>Fig.1</b> Eleven selected NEON sites across the contiguous U.S.</p>
+
+<img src="figs/Fig2.jpg" title="" alt="" data-align="center">
+<p align="center"><b>Fig.2</b> Summarized workflow for tracking seasonal variability of plant traits.</p>
 
 ## Requirements
 * Python 3.8.18 and R 4.3.2,  more in `python_environment.yml` and `R_environment.txt`
@@ -121,9 +140,7 @@
 In case you use our framework and code in your research, Please cite our paper:
 * If you have any questions, please feel free to reach me at fujiang.ji@wisc.edu.
   ```
-  Ji,F.; Zheng, T.; Yang, R.; Kovach, K. R.; Townsend, P. A.; Shiklomanov, A. N.; Li, F.; Hao, D.; Dashti, H.; You, H.; Zhou, J.;
-  Chen, M. Tracking seasonal variability in plant traits from PRISMA spaceborne hyperspectral imaging spectroscopy over diverse
-  forest types and ecological functional regions. 2025. (Manuscript submitted, DOI forthcoming).
+  Ji,F.; Zheng, T.; Shiklomanov, A. N.; Yang, R.; Townsend, P. A.; Li, F.; Hao, D.; Dashti, H.; Kovach, K. R.; You, H.; Zhou, J.; Chen, M. Tracking seasonal variability in plant traits from spaceborne PRISMA and NEON AOP across forest types and ecoregions, Remote sensing of Environment, 2026, 333, 115149. https://doi.org/10.1016/j.rse.2025.115149
   ```
 
 ## Contact
